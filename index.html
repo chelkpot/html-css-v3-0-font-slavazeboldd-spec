@@ -1,22 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    
-    <title>Работа со шрифтами</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Работа со шрифтами и текстом</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Изучаем свойства текста и шрифтов</h1>
-
-    <p>
-        Это пример текста, в котором вы должны применить свойства CSS:
-        font-family, font-style, font-variant, font-weight, font-size,
-        text-decoration, text-align, text-indent и text-transform.
-    </p>
-
-    <p> 
-        При наведении курсора на этот текст, он должен изменится.
-    </p>
-
-    <a href="#">Эту ссылку нужно сделать без подчеркивания</a>
+    <div class="container">
+        <h1>Демонстрация работы со шрифтами и текстом</h1>
+        
+        <p class="font-family">Этот текст демонстрирует установленное семейство шрифта.</p>
+        
+        <p class="italic">Этот текст имеет курсивное начертание.</p>
+        
+        <p class="oblique">Этот текст имеет наклонное начертание.</p>
+        
+        <p class="small-caps">Этот текст использует вариант малых заглавных букв.</p>
+        
+        <p class="bold">Этот текст сделан жирным.</p>
+        
+        <p class="font-size">Этот текст имеет настроенный размер шрифта.</p>
+        
+        <p class="hover-effect">Наведите курсор на этот текст чтобы увидеть эффект при наведении.</p>
+        
+        <p class="underline">Этот текст подчёркнут.</p>
+        
+        <a href="#" class="link-no-underline">Эта ссылка без подчёркивания</a>
+        
+        <p class="text-center">Этот текст выровнен по центру.</p>
+        
+        <p class="text-indent">Этот абзац имеет отступ первой строки. Здесь находится достаточно длинный текст, чтобы продемонстрировать, как работает свойство text-indent для создания красной строки в начале абзаца.</p>
+        
+        <div class="text-transforms">
+            <p class="capitalize">этот текст будет преобразован в capitalize</p>
+            <p class="uppercase">этот текст будет преобразован в uppercase</p>
+            <p class="lowercase">ЭТОТ ТЕКСТ БУДЕТ ПРЕОБРАЗОВАН В LOWERCASE</p>
+        </div>
+    </div>
 </body>
 </html>
